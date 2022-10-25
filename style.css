@@ -1,0 +1,38 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Main */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.1rem;
+  font-family: monospace;
+  color: #f8f8f2;
+  background-color: #282a36;
+}
+
+canvas {
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.inputs {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  background-color: #44475a;
+}

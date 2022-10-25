@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Spiral</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="inputs">
+    <label for="size-input">Size of spiral</label>
+    <input id="size-input" type="range" min="1" max="21" step="2" value="5">
+    
+    <label for="start-number-input">Starting number</label>
+    <input id="start-number-input" type="number" min="1" max="1000" value="1">
+
+    <div>
+      <input id="highlight-start" type="checkbox">
+      <label for="highlight-start">Highlight start</label>
+    </div>
+
+    <div>
+      <input id="animate" type="checkbox">
+      <label for="animate">Animate</label>
+    </div>
+
+    <div>
+      <input id="hide-numbers" type="checkbox">
+      <label for="hide-numbers">Hide numbers</label>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="/scripts/main.mjs" type="module"></script>
+</body>
+</html>
